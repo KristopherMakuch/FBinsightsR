@@ -77,7 +77,7 @@ fbins_summ <- function(start_date, until_date, report_level, time_increment, fb_
                   access_token = fb_access_token,
                   time_range = time_range,
                   level = report_level,
-                  fields = "campaign_name, campaign_id, buying_type, account_currency, budget, date_start, date_stop, adset_id, adset_name, ad_id, ad_name, impressions, cpm, reach, frequency, clicks, unique_clicks, ctr, cpc, spend, estimated_ad_recall_rate, canvas_avg_view_time, canvas_avg_view_percent",
+                  fields = "campaign_name, campaign_id, buying_type, account_currency, lifetime_budget, date_start, date_stop, adset_id, adset_name, ad_id, ad_name, impressions, cpm, reach, frequency, clicks, unique_clicks, ctr, cpc, spend, estimated_ad_recall_rate, canvas_avg_view_time, canvas_avg_view_percent",
                   time_increment=time_increment,
                   limit = "10000"
                 ),
